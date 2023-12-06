@@ -1,0 +1,549 @@
+
+@font-face {
+    font-family: re;
+    src: url(Font/Rejouice-Headline.ttf);
+}
+
+@font-face {
+    font-family: nb;
+    src: url(Font/NBInternationalProBoo.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.page-1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(136, 129, 129, 0.411);
+    position: relative;
+}
+
+.page-1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.page-1-content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+
+}
+
+.page-1 .cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #F05935;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+}
+
+.cursor h5{
+    font-family: nb;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 3vw;
+    font-family: nb;
+}
+
+nav h3{
+    font-size: 1.4vw;
+    font-weight: 100;
+
+}
+
+nav h4{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+.page-1 .page-1-content h1{
+    font-family: re;
+    font-size: 26vw;
+    font-weight: 100;
+    line-height: 26vw;
+    
+}
+
+.page-1-content h1 span{
+    font-family: re;
+    display: inline-block;
+
+}
+
+.page-2,.page-22{
+    height: 100vh;
+    width: 100%;
+    
+    padding: 3vw 2vw; 
+ 
+    font-family: nb;
+    
+}
+
+.page-2-head{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+}
+
+.page-2-head h1{
+    font-size: 2vw;
+    font-weight: 100;
+    position: relative;
+}
+
+.page-2-line{
+    height: 1.6px;
+    width: 100%;
+    background-color: black;
+    margin: 2vw 0;
+}
+
+.page-2-text h1{
+    font-size: 4.1vw;
+    font-weight: 100;
+    position: relative;
+}
+
+
+.page-3{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 2vw;
+}
+
+.page-3-top{
+    text-align: center;
+    margin: 14vw 0;
+}
+
+.page-3-top h4{
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: nb;
+}
+
+.page-3-top h4 span{
+    font-size: 1.2vw;
+    background-color: #000;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.page-3-top h1{
+    font-family: nb;
+    font-size: 3.5vw;
+    font-weight: 100;
+}
+
+.page-3-elements{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-3-elements .box{
+    height: 100%;
+    width: 32.5%;
+    position: relative;
+}
+
+.page-3-elements .box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+   
+}
+
+.page-3-elements .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    object-position: center;
+    transition: all linear 0.7s;
+}
+
+.page-3-elements .box:hover img{
+    opacity: 0;
+}
+
+.page-3 .img-top-head{
+    display: flex;
+    justify-content: space-between;
+    font-family: nb;
+    font-weight: 100;
+    margin: 1vw 0;
+    
+}
+
+.page-3 .img-top-head h4{
+    font-size: 1.8vw;
+    font-weight: 100;
+}
+
+
+.page-4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.page-4 video{
+    height: 100%;
+
+}
+
+.page-4 svg{
+    position: absolute;
+    height: 60%;
+}
+
+.page-4 .cursor-2{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #110a08;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+}
+
+.cursor-2 h5{
+    font-family: nb;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+.page-5{
+    height: 100vh;
+    width: 100%;
+    padding: 4vw 0;
+    font-family: re;
+}
+
+.page-5 h1{
+    font-size: 10vw;
+    font-weight: 100;
+    border-bottom: 1px solid #00000094;
+    width: 96%;
+    margin-left: 2%;
+}
+
+.swapper{
+    height: 60vh;
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: -4vw;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 19%;
+    
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    gap: 10px;
+  }
+
+  .loader h3{
+    font-size: 2vw;
+    font-family: nb;
+    font-weight: 100;
+  }
+
+
+  .footer{
+    height: 100vh;
+    width: 100%;
+    padding: 2vw 3vw;
+    background-color: #0E0E0E;
+    color: #ABA9A2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+.footer-part-1{
+    display: flex;
+    justify-content: space-between;
+    font-family: nb;
+    margin-bottom: 40px;
+}
+
+.part-1-1,.part-1-2-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.part-1-2{
+    display: flex;
+    gap: 30px;
+}
+
+.part-1-2 a{
+    color: #ABA9A2;
+    text-decoration: none;
+    transition: 1s all ease;
+}
+
+.part-1-2 a:hover{
+    text-decoration: underline;
+}
+
+.footer button{
+    height: 50px;
+    background-color: transparent;
+    color: #ABA9A2;
+    border: 1px solid #ABA9A2;
+    border-radius: 5px;
+    font-family: nb;
+    font-size: 1.2vw;
+    margin-top: 10px;
+    transition: 300ms all;
+}
+
+.footer button:hover{
+    background-color: #ABA9A2;
+    color: #000;
+}
+
+.footer h1{
+    font-family: re;
+    font-size: 26vw;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: -45px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+   .loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .loader h4{
+    font-size: 4vw;
+   }
+
+   element style{
+    display: flex;
+   }
+
+   nav h3 {
+    font-size: 5.4vw;
+    font-weight: 100;
+}
+
+nav h4 {
+    font-size: 5.4vw;
+    font-weight: 100;
+}
+
+.page-2-head h1 {
+    font-size: 6vw;
+    font-weight: 100;
+    position: relative;
+}
+
+.page-2-text h1 {
+    font-size: 8.1vw;
+    font-weight: 100;
+    position: relative;
+}
+
+.page-3-top h4 {
+    margin-bottom: 3vw;
+    font-size: 5.2vw;
+    font-weight: 500;
+    font-family: nb;
+}
+
+.page-3-top h4 span {
+    font-size: 4.2vw;
+    background-color: #000;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.page-3-top h1 {
+    font-family: nb;
+    font-size: 6.5vw;
+    font-weight: 100;
+}
+
+.page-3 .img-top-head h4 {
+    font-size: 3.8vw;
+    font-weight: 100;
+}
+
+.page-3-elements {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.page-3-elements .box {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.page-3 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 2vw;
+    margin-bottom: 234vw;
+}
+
+.page-4 svg {
+    position: absolute;
+    height: 33%;
+}
+
+.page-4 video {
+    height: 65%;
+}
+
+.page-5 h1 {
+    font-size: 13vw;
+    font-weight: 100;
+    border-bottom: 1px solid #00000094;
+    width: 96%;
+    margin-left: 2%;
+}
+.page-5{
+    display: none;
+}
+
+.footer {
+    height: 117vh;
+    width: 100%;
+    padding: 2vw 3vw;
+    background-color: #0E0E0E;
+    color: #ABA9A2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer button {
+    height: 50px;
+    background-color: transparent;
+    color: #ABA9A2;
+    border: 1px solid #ABA9A2;
+    border-radius: 5px;
+    font-family: nb;
+    font-size: 4.2vw;
+    margin-top: 10px;
+    transition: 300ms all;
+}
+
+.footer-part-1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: nb;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+  }
